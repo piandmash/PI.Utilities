@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;netcoreapp2.0;net45;netstandard2.0</TargetFrameworks>
+    <Company>Pi &amp; Mash Limited</Company>
+    <Copyright>Copyright ©  2018 Pi &amp; Mash Limited</Copyright>
+    <PackageLicenseUrl>https://github.com/piandmash/PI.Utilities/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/piandmash/PI.Utilities</PackageProjectUrl>
+    <PackageIconUrl>https://www.piandmash.com/pi_logo.png</PackageIconUrl>
+    <Description>Instead of using pseudo random numbers this implementation uses the RNGCryptoServiceProvide</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>utilities, cryptography, random</PackageTags>
+    <Version>2.0.0</Version>
+    <RepositoryUrl>https://github.com/piandmash/PI.Utilities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>PI.Utilities.CryptoRandom</PackageId>
+    <Authors>Pete Cleary</Authors>
+    <Product>PI.Utilities.CryptoRandom</Product>
+    <AssemblyName>PI.Utilities.CryptoRandom</AssemblyName>
+    <RootNamespace>PI.Utilities</RootNamespace>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+</Project>
