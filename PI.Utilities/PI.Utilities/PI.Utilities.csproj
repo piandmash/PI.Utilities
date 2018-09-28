@@ -10,7 +10,7 @@
     <Description>Utilities for projects with base classes, models, interfaces, attributes and useful tools.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>utilities, base classes, models, interfaces, attributes, tools</PackageTags>
-    <Version>2.0.1</Version>
+    <Version>2.0.4</Version>
     <RepositoryUrl>https://github.com/piandmash/PI.Utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageId>PI.Utilities</PackageId>
@@ -18,7 +18,8 @@
     <Product>PI.Utilities</Product>
     <AssemblyName>PI.Utilities</AssemblyName>
     <RootNamespace>PI.Utilities</RootNamespace>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.3.0</AssemblyVersion>
+    <FileVersion>2.0.3.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net451'">

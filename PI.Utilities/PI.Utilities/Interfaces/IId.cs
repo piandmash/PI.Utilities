@@ -2,7 +2,7 @@
 
 namespace PI.Utilities.Interfaces
 {
-    public interface IAuditFieldsWithId : IAuditFields
+    public interface IId
     {
         /// <summary>
         /// Gets/sets the object id

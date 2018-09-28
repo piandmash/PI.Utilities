@@ -10,7 +10,7 @@
     <Description>Provides date range facilities for projects. Start/End Date pairs and attributes.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>utilities, dates, date range</PackageTags>
-    <Version>2.0.0</Version>
+    <Version>2.0.4</Version>
     <RepositoryUrl>https://github.com/piandmash/PI.Utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageId>PI.Utilities.Dates</PackageId>
@@ -18,7 +18,8 @@
     <Product>PI.Utilities.Dates</Product>
     <AssemblyName>PI.Utilities.Dates</AssemblyName>
     <RootNamespace>PI.Utilities.Dates</RootNamespace>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.3.0</AssemblyVersion>
+    <FileVersion>2.0.3.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net451'">
@@ -28,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="PI.Utilities" Version="2.0.0" />
+    <PackageReference Include="PI.Utilities" Version="2.0.4" />
     <PackageReference Include="PI.Utilities.CryptoRandom" Version="2.0.0" />
   </ItemGroup>
 
