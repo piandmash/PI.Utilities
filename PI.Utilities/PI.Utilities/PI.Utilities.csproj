@@ -20,6 +20,7 @@
     <RootNamespace>PI.Utilities</RootNamespace>
     <AssemblyVersion>2.0.3.0</AssemblyVersion>
     <FileVersion>2.0.3.0</FileVersion>
+    <PackageReleaseNotes>Additional Interfaces and Base Models most notably the IId Interface</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net451'">

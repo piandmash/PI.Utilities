@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;netcoreapp2.0;net45;netstandard2.0</TargetFrameworks>
+    <Company>Pi &amp; Mash Limited</Company>
+    <Copyright>Copyright ©  2018 Pi &amp; Mash Limited</Copyright>
+    <PackageLicenseUrl>https://github.com/piandmash/PI.Utilities/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/piandmash/PI.Utilities</PackageProjectUrl>
+    <PackageIconUrl>https://www.piandmash.com/pi_logo.png</PackageIconUrl>
+    <Description>Simple MailMessage generator to allow for presistent emails with template binding using SmartFormat.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>mail, email, system.net.mail, SmartFormat, template binding with SmartFormat</PackageTags>
+    <Version>2.0.0</Version>
+    <RepositoryUrl>https://github.com/piandmash/PI.Utilities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>PI.Utilities.Mail.SmartFormat</PackageId>
+    <Authors>Pete Cleary</Authors>
+    <Product>PI.Utilities.Mail.SmartFormat</Product>
+    <AssemblyName>PI.Utilities.Mail.SmartFormat</AssemblyName>
+    <RootNamespace>PI.Utilities.Mail.SmartFormat</RootNamespace>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PI.Utilities.Mail" Version="2.0.1" />
+    <PackageReference Include="SmartFormat.NET" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>

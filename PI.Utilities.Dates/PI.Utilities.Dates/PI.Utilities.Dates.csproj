@@ -18,8 +18,9 @@
     <Product>PI.Utilities.Dates</Product>
     <AssemblyName>PI.Utilities.Dates</AssemblyName>
     <RootNamespace>PI.Utilities.Dates</RootNamespace>
-    <AssemblyVersion>2.0.3.0</AssemblyVersion>
-    <FileVersion>2.0.3.0</FileVersion>
+    <AssemblyVersion>2.0.4.0</AssemblyVersion>
+    <FileVersion>2.0.4.0</FileVersion>
+    <PackageReleaseNotes>Updated to include the latest version 2.0.4 of PI.Utilities</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net451'">
